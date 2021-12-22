@@ -1,0 +1,179 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8096038600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify to Create NPS Properties General Details",
+        "description": "",
+        "id": "portfolio-application;verify-to-create-nps-properties-general-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1617551200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34914774600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I have logged in full permission user model AdminRights",
+            "match": {
+              "arguments": [
+                {
+                  "val": " AdminRights",
+                  "offset": 43
+                }
+              ],
+              "location": "Generic_Steps.iHaveLoggedInFullPermissionUserModel(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 719757400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on Property icon from side bar",
+            "match": {
+              "location": "Generic_Steps.iClickOnBacklogAndUnblockedMenuFromSideBarOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25437247400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Property Details option",
+            "match": {
+              "location": "Generic_Steps.iClickOnRaiseRequestForBackLogAndUnblockLogRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 816096300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Create plus icon button and creating the NPS General Details",
+            "match": {
+              "location": "Generic_Steps.iClickOnNewPlusIconButtonAndCreatingTheFolderForArchival()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38880903000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Fill the NPS Property details and Site location as United Kingdom-221: and Save it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "United Kingdom-221:",
+                  "offset": 51
+                }
+              ],
+              "location": "Generic_Steps.fillTheNPSPropertyDetailsAndSaveIt(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20070729500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click the on the Save Button",
+            "match": {
+              "location": "Generic_Steps.iClickTheOnTheSaveButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51831484800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify respective site location is Active or Inactive Active and ActiveAdd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Active",
+                  "offset": 54
+                },
+                {
+                  "val": "ActiveAdd",
+                  "offset": 65
+                }
+              ],
+              "location": "Generic_Steps.verifyRespectiveSiteLocationIsActiveOrInactiveSiteStatus(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PortfolioDetails"
+          },
+          {
+            "name": "@TC001_PropertiesDetailsActive"
+          },
+          {
+            "name": "#done"
+          }
+        ]
+      }
+    ],
+    "name": "Portfolio Application",
+    "description": "  As we are covering in this feature file as Properties Details\n  Create the properties General Details\n  Verify the General details",
+    "id": "portfolio-application",
+    "keyword": "Feature",
+    "uri": "D:/PortfolioApplication/src/test/resources/features/PropertiesDetails.feature",
+    "tags": [
+      {
+        "name": "@PortfolioDetails",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
